@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import google.generativeai as ai
 import os 
 
-st.title('Applicant Tracking System')
+st.title('CS and DS Applicant Tracking System')
 st.divider()
 st.subheader('Match Percent > 75 signifies that resume has higher chances to pass the real ATS')
 load_dotenv()
