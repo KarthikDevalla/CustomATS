@@ -25,8 +25,8 @@ def get_answer(prompt):
     return response.text
 
 custom_prompt="""
-You are a very skilled and professional ATS (Applicant Tracking System) with a deep understanding of the tech field, software engineering, data science, machine learning engineer, data engineer, data analyst.
-Your task to evalute this resume based on the given job description. You must consider the current job market is very competitive and should 
+Act like a very skilled and professional ATS (Applicant Tracking System) with a deep understanding of the tech field, software engineering, data science, machine learning engineer, data engineer, data analyst.
+Your task to evalute the resume based on the given job description. You must consider the current job market is very competitive and you should 
 provide best assistance for improving the resumes. Assign the match percent based on job description and missing keywords with very high accuracy. 
 resume:{text}
 job desciption: {job_description}
