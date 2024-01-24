@@ -6,7 +6,7 @@ import os
 
 st.title('CS and DS Applicant Tracking System')
 st.divider()
-st.subheader('Match Percent > 75 signifies that resume has higher chances to pass the real ATS')
+st.subheader('Match Percent > 85 signifies that resume has higher chances to pass the real ATS')
 load_dotenv()
 
 ai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
